@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(189, 95, 115) !important;
+}
+
+.header{
+    padding: 50px 0px;
+}
+
+h1{
+    color: rgb(68, 31, 48) !important;
+    font-weight: bolder !important;
+}
+
+p{
+    color: rgb(68, 31, 48);
+    font-weight: bolder;
+}
+
+hr{
+    border-color: rgb(68, 31, 48) !important;
+}
+
+.ageInput input{
+    float: right;
+}
+
+.theButton {
+    padding-left: 50px;
+}
+
+.outputBox {
+    padding-top: 50px;
+}
+
+@media (max-width: 410px){
+    .ageInput input{
+        width: 10em;
+    }
+}
+
+@media (max-width: 320px){
+    .ageInput input{
+        width: 8em;
+    }
+}

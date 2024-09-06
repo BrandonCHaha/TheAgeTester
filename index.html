@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Age Tester</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap.css">
+</head>
+<body>
+
+
+    <div class="container">
+
+        <div class="row header">
+            <div class="col-12 d-flex justify-content-center">
+                <h1>Age Eligibility</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <p>Just type your age in the box and see what you're eligible for!</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row inputAndCheck">
+            <div class="col-6 ageInput">
+                <input type="text" name="age" id="ageInput" placeholder="Age Input">
+            </div>
+
+            <div class="col-6">
+                <div class="theButton">
+                    <button id="checkButton">Check Age</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 outputBox d-flex justify-content-center">
+                <p id="outputBox"></p>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+<script src="js/app.js"></script>
+</html>
